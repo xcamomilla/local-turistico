@@ -1,0 +1,38 @@
+* {
+    background-color: #F5F4F0;
+    color: #1B1B1B;
+    
+}
+body {
+  /* 1. Define a largura máxima */
+  max-width: 960px; /* Um valor comum, pode ser 1100px, 900px etc. */
+  /* 2. Centraliza o container na página */
+  margin-left: auto;
+  margin-right: auto;
+  /* (O atalho para o margin acima é "margin: 0 auto;") */
+}
+
+
+
+:root {
+     font-family: "Open Sans", sans-serif;
+}
+
+.laranja {
+    color: #E1624F;
+}
+
+.bu {
+    margin-top: 40px;
+}
+#busan :nth-child(2) {
+    
+}
+
+#busan :nth-child(4) {
+    margin-top: 24px;
+    margin-bottom: 104px;
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+}
