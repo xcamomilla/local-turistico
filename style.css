@@ -10,14 +10,22 @@ body {
 
 :root {
     font-family: "Open Sans", sans-serif;
+    font-weight: normal;
 }
 
 .laranja {
     color: #E1624F;
 }
+.texto {
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+
+}
 #about :nth-child(2) {
     margin-bottom: 40px;
 }
+
 #about :nth-child(4) {
     margin-top: 24px;
     margin-bottom: 104px;
@@ -39,26 +47,34 @@ img {
 }
 
 #destinos :nth-child(3) {
-    font-style: italic;
     width: 1120px;
     height: 88px;
-    font-size: 16px;
     margin-bottom: 64px;
-}
-.amor {
-    font-size: 28px;
 }
 
 #headong :nth-child(3) {
     width: 1120px;
 }
 
-.destaque {
+.azul {
     font-weight: bold;
     color: #0C51A7;
 }
 
-#headong :nth-child(4) {
+
+.bold {
     font-size: 16px;
     font-weight: bold; 
+}
+
+.terceira-imagem {
+    margin-top: 48px;
+    width: 1120px;
+    height: 350px;
+    margin-bottom: 20px;
+}
+
+.subtitulo {
+    font-size: 28px;
+    font-weight: bold;
 }
